@@ -33,8 +33,8 @@ public interface AgeService {
     @WebResult(targetNamespace = "")
     @RequestWrapper(localName = "getAge", targetNamespace = "http://ageservice/", className = "generated.ageservice.GetAge")
     @ResponseWrapper(localName = "getAgeResponse", targetNamespace = "http://ageservice/", className = "generated.ageservice.GetAgeResponse")
-    public String getAge(
-        @WebParam(name = "arg0", targetNamespace = "")
-        Integer arg0);
+    String getAge(
+            @WebParam(name = "arg0", targetNamespace = "")
+                    Integer arg0);
 
 }
