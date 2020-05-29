@@ -7,25 +7,7 @@ import javax.xml.bind.annotation.XmlElement;
 import javax.xml.bind.annotation.XmlType;
 
 
-/**
- * <p>Classe Java pour getAgeResponse complex type.
- * 
- * <p>Le fragment de schéma suivant indique le contenu attendu figurant dans cette classe.
- * 
- * <pre>
- * &lt;complexType name="getAgeResponse">
- *   &lt;complexContent>
- *     &lt;restriction base="{http://www.w3.org/2001/XMLSchema}anyType">
- *       &lt;sequence>
- *         &lt;element name="return" type="{http://www.w3.org/2001/XMLSchema}string" minOccurs="0"/>
- *       &lt;/sequence>
- *     &lt;/restriction>
- *   &lt;/complexContent>
- * &lt;/complexType>
- * </pre>
- * 
- * 
- */
+
 @XmlAccessorType(XmlAccessType.FIELD)
 @XmlType(name = "getAgeResponse", propOrder = {
     "_return"
@@ -36,7 +18,7 @@ public class GetAgeResponse {
     protected String _return;
 
     /**
-     * Obtient la valeur de la propriété return.
+     * Obtient la valeur de la propriï¿½tï¿½ return.
      * 
      * @return
      *     possible object is
@@ -48,12 +30,11 @@ public class GetAgeResponse {
     }
 
     /**
-     * Définit la valeur de la propriété return.
+     * DÃ©finit la valeur de la propriÃ©tÃ© return.
      * 
      * @param value
      *     allowed object is
      *     {@link String }
-     *     
      */
     public void setReturn(String value) {
         this._return = value;

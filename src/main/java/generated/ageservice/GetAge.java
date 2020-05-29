@@ -9,7 +9,7 @@ import javax.xml.bind.annotation.XmlType;
 /**
  * <p>Classe Java pour getAge complex type.
  * 
- * <p>Le fragment de schéma suivant indique le contenu attendu figurant dans cette classe.
+ * <p>Le fragment de schÃ©ma suivant indique le contenu attendu figurant dans cette classe.
  * 
  * <pre>
  * &lt;complexType name="getAge">
@@ -34,7 +34,7 @@ public class GetAge {
     protected Integer arg0;
 
     /**
-     * Obtient la valeur de la propriété arg0.
+     * Obtient la valeur de la propriÃ©tÃ© arg0.
      * 
      * @return
      *     possible object is
@@ -46,12 +46,11 @@ public class GetAge {
     }
 
     /**
-     * Définit la valeur de la propriété arg0.
+     * DÃ©finit la valeur de la propriÃ©tÃ© arg0.
      * 
      * @param value
      *     allowed object is
      *     {@link Integer }
-     *     
      */
     public void setArg0(Integer value) {
         this.arg0 = value;
